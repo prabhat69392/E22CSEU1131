@@ -52,5 +52,5 @@ app.get("/numbers/:type", async (req, res) => {
     res.status(500).json({ error: "Error fetching numbers" });
   }
 });
-
+   
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
